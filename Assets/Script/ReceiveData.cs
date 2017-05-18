@@ -21,11 +21,20 @@ public class ReceiveData {
 
     private static ReceiveData _instance;
 
-
+    /// <summary>
+    /// 玩家名字
+    /// </summary>
     public string nameText;
 
+    /// <summary>
+    /// 玩家ID
+    /// </summary>
     public int nameID=100;
-   
+
+    /// <summary>
+    /// 回合开始还是结束
+    /// </summary>
+    public bool IsHuihe = false;
     
 
 }
